@@ -135,7 +135,7 @@ while True:
 		print('Ping timeout')
 		break
 	
-#test
+
 
 msg = (pingstatus2)
 requests.post(url, headers=headers , data = {'message':msg})
